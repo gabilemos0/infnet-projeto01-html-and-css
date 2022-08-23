@@ -1,0 +1,48 @@
+#about {
+  background: #F9F1F0;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.aboutColumn {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutDescription {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutColumn h3 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-weight: 600;
+  margin: 1rem;
+  flex-grow: 1;
+}
+
+.aboutColumn p {
+  text-align: justify;
+  margin: 0rem 2rem 2rem;
+  flex-grow: 4;
+}
+
+.knowMore {
+  display: block;
+  margin: 0 auto;
+  padding: 0.5rem 2rem;
+  background: #F79489;
+  border: none;
+  border-radius: 0.5rem;
+  flex-grow: 0;
+}
+
+.knowMore a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+

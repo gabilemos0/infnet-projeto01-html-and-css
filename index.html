@@ -11,8 +11,7 @@
   <body>
     <header>
       <div class="logo"> 
-        <a href="#home"><img a src="./assets/img/logo.png" alt="logo"/></a>
-        
+        <a href="#home"><img a src="./assets/img/logo.png" alt="logo"/></a>        
       </div>
       <nav>
         <ul>
@@ -22,44 +21,48 @@
           <li><a href="#contact">Contato</a></li>
         </ul>
       </nav>
-    </header>
-    <section class="banner" id="home">
-      <p>Aqui vai um banner ou o Carrousel do Bootstrap</p>
-    </section>
+    </header>    
     <main>
+      <section class="banner" id="home">
+        <img class="imgBanner" src="./assets/img/banner-1.jpg" alt="consultoria de imagem">
+      </section>
       <section id="about">
-        <div>
+        <div class="container">
           <h2>Sobre</h2>
-          <div class="aboutJessica">
-            <h3>Quem é?</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Perferendis nihil, enim in nulla natus, atque accusamus distinctio
-              iste, quae tempore sed inventore. Atque sequi rem fugiat odit
-              ipsum temporibus ipsam.
-            </p>
-            <button>Saiba mais...</button>
+          <div class="aboutDescription">
+            <div class="aboutColumn">
+              <h3>Quem é?</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Perferendis nihil, enim in nulla natus, atque accusamus distinctio
+                iste, quae tempore sed inventore. Atque sequi rem fugiat odit
+                ipsum temporibus...
+              </p>
+              <button class="knowMore"><a href="">Saiba mais</a></button>
+            </div>
+            <div class="aboutColumn">
+              <h3>O que é?</h3>
+              <p>
+                A Consultoria de Imagem e Estilo é o processo de análise e
+                construção da nossa forma de vestir, tendo como principal objetivo
+                harmonizar nossa identidade à nossa imagem. A identidade são
+                nossos valores, quem somos e quem queremos nos tornar... 
+              </p>
+                <button class="knowMore"><a href="">Saiba mais</a></button>
+            </div>
+            <div class="aboutColumn">
+              <h3>Para quem é?</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium perferendis dolor sapiente inventore corporis nam recusandae, reiciendis cumque neque aperiam quibusdam voluptatum omnis, similique consectetur incidunt tempore repellat voluptatem natus...
+              </p>
+              <button class="knowMore"><a href="">Saiba mais</a></button>
+            </div>
           </div>
-          <div class="aboutConsultoria">
-            <h3>O que é?</h3>
-            <p>
-              A Consultoria de Imagem e Estilo é o processo de análise e
-              construção da nossa forma de vestir, tendo como principal objetivo
-              harmonizar nossa identidade à nossa imagem. A identidade são
-              nossos valores, quem somos e quem queremos nos tornar. </p>
-            <button>Saiba mais...</button>
-          </div>
-          <div class="about">
-            <h3>Para quem é?</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium perferendis dolor sapiente inventore corporis nam recusandae, reiciendis cumque neque aperiam quibusdam voluptatum omnis, similique consectetur incidunt tempore repellat voluptatem natus.
-            </p>
-            <button>Saiba mais...</button>
-          </div>
+          
         </div>
       </section>
       <section id="services">
-        <div>
+        <div class="container">
           <h2>Serviços</h2>
           <div>
             <h3>Visagismo</h3>
@@ -162,10 +165,10 @@
           </div>
         </div>
       </section>
-    </main>
+    
     
         <section id="contact">
-          <div class="contactContainer">
+          <div class="container">
             <h2>Contato</h2>
             <span class="contactDescription"
               >Sinta-se à vontade para entrar em contato comigo enviando o
@@ -197,6 +200,7 @@
           </div>
         </section>
       </div>
+    </main>
       <footer>
         <div class="messageFooter">
           <span class="titleFooter titleFooterName">Jéssica Carvalho</span>
