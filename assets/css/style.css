@@ -3,6 +3,7 @@
 @import url('./about.css');
 @import url('./banner.css');
 @import url('./services.css');
+@import url('./contact.css');
 
 * {
   margin: 0;

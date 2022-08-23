@@ -22,7 +22,7 @@ header nav ul {
 header nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: black;
+  color: #333;
   padding: 1rem;
   letter-spacing: 6px;
   font-size: 0.9rem;

@@ -22,27 +22,35 @@
   font-weight: 600;
   margin: 1rem;
   flex-grow: 1;
+  color: #333;
 }
 
 .aboutColumn p {
   text-align: justify;
   margin: 0rem 2rem 2rem;
   flex-grow: 4;
+  color: #555;
 }
 
 .knowMore {
   display: block;
   margin: 0 auto;
-  padding: 0.5rem 2rem;
+  padding: 1rem 1rem;
   background: #F79489;
   border: none;
   border-radius: 0.5rem;
   flex-grow: 0;
+  box-shadow: 0 5px 15px 0 rgb(0 0 0 / 30%);
 }
 
 .knowMore a {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
+  letter-spacing: 4px;
 }
 
+.knowMore:hover {
+  border: 0.1px solid #F79489;   
+  animation: pulse 3s;
+}
