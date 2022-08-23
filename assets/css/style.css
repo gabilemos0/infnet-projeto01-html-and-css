@@ -4,6 +4,7 @@
 @import url('./banner.css');
 @import url('./services.css');
 @import url('./contact.css');
+@import url('./footer.css');
 
 * {
   margin: 0;
