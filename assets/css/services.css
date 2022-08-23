@@ -1,0 +1,42 @@
+#services {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.pageServices {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pageServices img {
+  width: 15rem;
+  height: 18rem;
+  border-radius: 3rem;
+  margin: 1rem;
+  border: 2px solid #fafafa;
+}
+
+.pageServices div a img:hover {
+  border: 2px solid #F79489;
+}
+
+.pageServices div {
+  position: relative;
+}
+
+.pageServices div a span {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fafafa;
+  letter-spacing: 4px;
+  font-weight: 600;
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  background: #3333338a;
+  border-radius: 0.7rem;
+  padding: 0.3rem;
+}
+
