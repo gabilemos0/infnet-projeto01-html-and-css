@@ -1,6 +1,7 @@
 #services {
   padding-top: 7rem;
   padding-bottom: 7rem;
+  box-shadow: 0 10px 100px rgb(0 0 0 / 10%);
 }
 
 .columnOne img {
@@ -13,11 +14,63 @@
   justify-content: space-around;
 }
 
-.columnOne div{
+.containerImg {
   position: relative;
 }
 
-.columnOne div a span {
+.textBlock1 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fafafa;
+  letter-spacing: 4px;
+  font-weight: 600;
+  position: absolute;
+  top: 75%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+  font-size: 0.8rem;
+  background: #3333338a;
+  border-radius: 0.7rem;
+  padding: 0.3rem;
+}
+
+.textBlock2 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fafafa;
+  letter-spacing: 4px;
+  font-weight: 600;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 0.8rem;
+  background: #3333338a;
+  border-radius: 0.7rem;
+  padding: 0.3rem;
+}
+
+.textBlock3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: #fafafa;
+  letter-spacing: 4px;
+  font-weight: 600;
+  position: absolute;
+  top: 75%;
+  left: 83.5%;
+  transform: translate(-50%, -50%);
+  font-size: 0.8rem;
+  background: #3333338a;
+  border-radius: 0.7rem;
+  padding: 0.3rem;
+}
+
+/* .columnOne div{
+  position: relative;
+} */
+
+/* .columnOne div a span {
   text-transform: uppercase;
   text-align: center;
   color: #fafafa;
@@ -31,7 +84,7 @@
   background: #3333338a;
   border-radius: 0.7rem;
   padding: 0.3rem;
-} 
+}  */
 
 .columnOne div img {
   width: 15rem;
@@ -43,4 +96,13 @@
 
 .columnOne div a img:hover {
   border: 2px solid #F79489;
+}
+
+.myButtonLeft {
+  padding-right: 8rem!important;
+}
+
+.myButtonRight {
+  margin-left: 8rem!important;
+  padding-left: 8rem!important;
 }

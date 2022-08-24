@@ -1,0 +1,21 @@
+.modal-title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+
+.myContentModal {
+  display: flex;
+  align-items: center;
+}
+
+.imgModal {
+  border: 2px solid #F79489!important;
+}
+
+.myContentModal span {
+  color: #555;
+  font-size: 0.9rem;
+}
+
