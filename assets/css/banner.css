@@ -1,8 +1,7 @@
-.banner {
-  background-color: #F9F1F0;
+#carouselBanner {
+  padding-top: 6.2rem;
 }
 
-.imgBanner {
-  height: 100vh;
-  width: 100%;
+#carouselBanner .carousel-item img {
+  border: 3px solid #F79489;
 }

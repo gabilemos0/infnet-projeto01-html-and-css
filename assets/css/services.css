@@ -3,28 +3,21 @@
   padding-bottom: 7rem;
 }
 
-.pageServices {
-  display: flex;
+.columnOne img {
+  width: 15rem;
+  height: 18rem;
+}
+
+.columnOne {
+  display: flex!important;
   justify-content: space-around;
 }
 
-.pageServices img {
-  width: 15rem;
-  height: 18rem;
-  border-radius: 3rem;
-  margin: 1rem;
-  border: 2px solid #fafafa;
-}
-
-.pageServices div a img:hover {
-  border: 2px solid #F79489;
-}
-
-.pageServices div {
+.columnOne div{
   position: relative;
 }
 
-.pageServices div a span {
+.columnOne div a span {
   text-transform: uppercase;
   text-align: center;
   color: #fafafa;
@@ -38,5 +31,16 @@
   background: #3333338a;
   border-radius: 0.7rem;
   padding: 0.3rem;
+} 
+
+.columnOne div img {
+  width: 15rem;
+  height: 18rem;
+  border-radius: 3rem;
+  margin: 1rem;
+  border: 2px solid #fafafa;
 }
 
+.columnOne div a img:hover {
+  border: 2px solid #F79489;
+}

@@ -1,195 +1,221 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://kit.fontawesome.com/a97a1bedf2.js" crossorigin="anonymous"></script>
-    <title>Jéssica Carvalho - Consultora de Imagem</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link href="./assets/libs/bootstrap/bootstrap.min.css" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <div class="logo"> 
-        <a href="#home"><img a src="./assets/img/logo.png" alt="logo" class="heading animate__animated animate__fadeIn animate__slower"/></a>        
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/a97a1bedf2.js" crossorigin="anonymous"></script>
+  <title>Jéssica Carvalho - Consultora de Imagem</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="./assets/libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="#home"><img a src="./assets/img/logo.png" alt="logo"
+          class="heading animate__animated animate__fadeIn animate__slower" /></a>
+    </div>
+    <nav>
+      <ul class="heading animate__animated animate__fadeIn animate__slower">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#services">Serviços</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div id="carouselBanner" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/img/banner-1.jpg" class="d-block w-100" alt="banner 1">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/banner-2.jpg" class="d-block w-100" alt="banner 2">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/banner-3.jpg" class="d-block w-100" alt="banner 3">
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/banner-4.jpg" class="d-block w-100" alt="banner 4">
+        </div>
       </div>
-      <nav>
-        <ul class="heading animate__animated animate__fadeIn animate__slower">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#services">Serviços</a></li>
-          <li><a href="#contact">Contato</a></li>
-        </ul>
-      </nav>
-    </header>    
-    <main>
-      <section class="banner" id="home">
-        <img class="imgBanner" src="./assets/img/banner-1.jpg" alt="consultoria de imagem">
-      </section>
-      <section id="about">
-        <div class="container">
-          <h2>Sobre</h2>
-          <div class="aboutDescription">
-            <div class="aboutColumn">
-              <h3>Quem é?</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Perferendis nihil, enim in nulla natus, atque accusamus distinctio
-                iste, quae tempore sed inventore. Atque sequi rem fugiat odit
-                ipsum temporibus...
-              </p>
-              <button class="knowMore"><a href="">Saiba mais</a></button>
-            </div>
-            <div class="aboutColumn">
-              <h3>O que é?</h3>
-              <p>
-                A Consultoria de Imagem e Estilo é o processo de análise e
-                construção da nossa forma de vestir, tendo como principal objetivo
-                harmonizar nossa identidade à nossa imagem. A identidade são
-                nossos valores, quem somos e quem queremos nos tornar... 
-              </p>
-                <button class="knowMore"><a href="">Saiba mais</a></button>
-            </div>
-            <div class="aboutColumn">
-              <h3>Para quem é?</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium perferendis dolor sapiente inventore corporis nam recusandae, reiciendis cumque neque aperiam quibusdam voluptatum omnis, similique consectetur incidunt tempore repellat voluptatem natus...
-              </p>
-              <button class="knowMore"><a href="">Saiba mais</a></button>
-            </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <section id="about">
+      <div class="sectionContainer">
+        <h2>Sobre</h2>
+        <div class="aboutDescription">
+          <div class="aboutColumn">
+            <h3>Quem é?</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Perferendis nihil, enim in nulla natus, atque accusamus distinctio
+              iste, quae tempore sed inventore. Atque sequi rem fugiat odit
+              ipsum temporibus...
+            </p>
+            <button class="knowMore"><a href="">Saiba mais</a></button>
           </div>
-          
-        </div>
-      </section>
-      <section id="services">
-        <div class="container">
-          <h2>Serviços</h2>
-          <div class="pageServices">
-            <div>
-              
-              <a href=""><img src="./assets/img/visagism.jpg" alt="visagismo"/><span>Visagismo</span></a>
-              
-            </div>
-            <div>
-              
-              <a href=""><img src="./assets/img/style.jpg" alt="Estilo"/><span>Estilo</span></a>
-              
-            </div>
-            <div>
-              
-              <a href=""><img src="./assets/img/etiquette.jpg" alt="Etiqueta e Comportamento"/><span>Etiqueta e Comportamento</span></a>
-              
-            </div>
+          <div class="aboutColumn">
+            <h3>O que é?</h3>
+            <p>
+              A Consultoria de Imagem e Estilo é o processo de análise e
+              construção da nossa forma de vestir, tendo como principal objetivo
+              harmonizar nossa identidade à nossa imagem. A identidade são
+              nossos valores, quem somos e quem queremos nos tornar...
+            </p>
+            <button class="knowMore"><a href="">Saiba mais</a></button>
           </div>
-          <div class="pageServices">
-            <div>
-              
-               <a href=""><img src="./assets/img/color.jpg" alt="Coloração Pessoal"/><span>Coloração Pessoal</span></a> 
-              
-            </div>
-            <div>
-             
-              <a href=""><img src="./assets/img/tipology.jpg" alt="Tipologia Física"/><span>Tipologia Física</span></a>
-              
-            </div>
-            <div>
-              
-              <a href=""><img src="./assets/img/closet.jpg" alt="Revitalização de Guarda-Roupa"/><span>Revitalização de Closet</span></a>  
-             
-            </div>
-          </div>
-          <div class="pageServices">
-          <div>
-            
-            <a href=""><img src="./assets/img/clean-closet.jpg" alt="Armário Cápsula"/><span>Armário Cápsula</span></a> 
-            
-          </div>
-          <div>
-            
-            <a href=""><img src="./assets/img/dress-code.jpg" alt="Dress Code"/><span>Dress Code</span></a>
-            
-          </div>
-          <div>
-            
-            <a href=""><img src="./assets/img/moda.jpg" alt="Tendências"/><span>Tendências</span></a>
-            
-          </div>
-          </div>
-          <div class="pageServices">
-          <div>
-            
-            <a href=""><img src="./assets/img/lingerie.jpg" alt="Lingerie"/><span>Lingerie</span></a>
-            
-          </div>
-          <div>
-            
-            <a href=""><img src="./assets/img/shopping.jpg" alt="Personal Shopping"/><span>Personal Shopping</span></a>
-            
+          <div class="aboutColumn">
+            <h3>Para quem é?</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium perferendis dolor sapiente inventore
+              corporis nam recusandae, reiciendis cumque neque aperiam quibusdam voluptatum omnis, similique consectetur
+              incidunt tempore repellat voluptatem natus...
+            </p>
+            <button class="knowMore"><a href="">Saiba mais</a></button>
           </div>
         </div>
-        </div>
-      </section>
-    
-    
-        <section id="contact">
-          <div class="container">
-            <h2>Contato</h2>
-            <span class="contactDescription"
-              >Sinta-se à vontade para entrar em contato comigo enviando o
-              formulário abaixo e retornarei o mais breve possível.</span
-            >
-          </div>
-          <div>
-            <form class="formContact">
-              <div class="formFields">
-                <label for="name">Nome:</label>
-                <input type="text" name="name" />
-              </div>
-              <div class="formFields">
-                <label for="email">E-mail:</label>
-                <input type="email" name="email" />
-              </div>
-              <div class="formFields">
-                <label for="topic">Assunto:</label>
-                <input type="text" name="topic" />
-              </div>
-              <div class="formFields">
-                <label for="message">Mensagem:</label>
-                <textarea name="message" style="resize: none"></textarea>
-              </div>
-              <div>
-                <button class="submit" type="submit">Enviar</button>
-              </div>
-            </form>
-          </div>
-        </section>
+
       </div>
-    </main>
-      <footer>
-        <div class="messageFooter">
-          <span class="titleFooter titleFooterName">Jéssica Carvalho</span>
-          <p class="slogan">
-            Consultora de Imagem e Estilo. Empreendedora. Mineira vivendo em Campinas.
-            Maternidade leve e sem frescura.
-          </p>
-        </div>
-        <div class="socialFooter">
-          <div>
-            <a href="mailto:jeehcarvalho.25@gmail.com" target="_blank"
-              ><i class="fa-regular fa-envelope"></i></a>
-            <a
-              href="https://api.whatsapp.com/send?phone=5532991007819"
-              target="_blank"
-              ><i class="fa-brands fa-whatsapp"></i></a>
-            <a
-              href="https://www.instagram.com/maeeoutrostrem/?hl=pt-br"
-              target="_blank"
-              ><i class="fa-brands fa-instagram"></i
-            ></a>
+    </section>
+    <section id="services">
+      <div class="sectionContainer">
+        <h2>Serviços</h2>
+        <div id="pageServices" class="carousel slide carousel-dark" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="columnOne">
+                <div>
+                  <a href=""><img src="./assets/img/visagism.jpg" alt="visagismo" /><span>Visagismo</span></a>
+                </div>
+                <div>
+                  <a href=""><img src="./assets/img/style.jpg" alt="Estilo" /><span>Estilo</span></a>
+                </div>
+                <div>
+                  <a href=""><img src="./assets/img/etiquette.jpg" alt="Etiqueta e Comportamento" /><span>Etiqueta e
+                      Comportamento</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="columnOne">
+                <div>
+                  <a href=""><img src="./assets/img/color.jpg" alt="Coloração Pessoal" /><span>Coloração
+                      Pessoal</span></a>
+                </div>
+                <div>
+                  <a href=""><img src="./assets/img/tipology.jpg" alt="Tipologia Física" /><span>Tipologia
+                      Física</span></a>
+                </div>
+                <div>
+                  <a href=""><img src="./assets/img/closet.jpg"
+                      alt="Revitalização de Guarda-Roupa" /><span>Revitalização
+                      de Closet</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="columnOne">
+                <div>
+                  <a href=""><img src="./assets/img/clean-closet.jpg" alt="Armário Cápsula" /><span>Armário
+                      Cápsula</span></a>
+                </div>
+                <div>
+                  <a href=""><img src="./assets/img/dress-code.jpg" alt="Dress Code" /><span>Dress Code</span></a>
+                </div>
+                <div>
+                  <a href=""><img src="./assets/img/moda.jpg" alt="Tendências" /><span>Tendências</span></a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="columnOne">
+                <div>
+                  <a href=""><img src="./assets/img/lingerie.jpg" alt="Lingerie" /><span>Lingerie</span></a>
+                </div>
+                <div>
+                  <a href=""><img src="./assets/img/shopping.jpg" alt="Personal Shopping" /><span>Personal
+                      Shopping</span></a>
+                </div>
+                <!-- <div>
+                  <a href=""><img src="./assets/img/moda.jpg" alt="Tendências" /><span>Tendências</span></a>
+                </div> -->
+              </div>
+            </div>
           </div>
-        </footer>
-        <script src="./assets/libs/bootstrap/bootstrap.bundle.min.js"></script>
-  </body>
+          <button class="carousel-control-prev" type="button" data-bs-target="#pageServices" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#pageServices" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+    </section>
+
+
+    <section id="contact">
+      <div class="sectionContainer">
+        <h2>Contato</h2>
+        <span class="contactDescription">Sinta-se à vontade para entrar em contato comigo enviando o
+          formulário abaixo e retornarei o mais breve possível.</span>
+      </div>
+      <div>
+        <form class="formContact">
+          <div class="formFields">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" />
+          </div>
+          <div class="formFields">
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" />
+          </div>
+          <div class="formFields">
+            <label for="topic">Assunto:</label>
+            <input type="text" name="topic" />
+          </div>
+          <div class="formFields">
+            <label for="message">Mensagem:</label>
+            <textarea name="message" style="resize: none"></textarea>
+          </div>
+          <div>
+            <button class="submit" type="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    </div>
+  </main>
+  <footer>
+    <div class="messageFooter">
+      <span class="titleFooter titleFooterName">Jéssica Carvalho</span>
+      <p class="slogan">
+        Consultora de Imagem e Estilo. Empreendedora. Mineira vivendo em Campinas.
+        Maternidade leve e sem frescura.
+      </p>
+    </div>
+    <div class="socialFooter">
+      <div>
+        <a href="mailto:jeehcarvalho.25@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=5532991007819" target="_blank"><i
+            class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/maeeoutrostrem/?hl=pt-br" target="_blank"><i
+            class="fa-brands fa-instagram"></i></a>
+      </div>
+  </footer>
+  <script src="./assets/libs/bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

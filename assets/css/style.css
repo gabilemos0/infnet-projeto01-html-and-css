@@ -16,11 +16,11 @@ html {
   scroll-behavior: smooth;
 }
 
-.container {
+.sectionContainer {
   margin: 0 2rem;
 }
 
-.container h2 {
+.sectionContainer h2 {
   display: block;
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -32,7 +32,7 @@ html {
   position: relative;
 }
 
-.container h2::after {
+.sectionContainer h2::after {
   content: '';
   position: absolute;
   top: calc(100% + 1rem);
