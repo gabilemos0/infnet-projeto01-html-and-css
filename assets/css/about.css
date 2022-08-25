@@ -6,13 +6,14 @@
 }
 
 .aboutColumn {
-  width: 30%;
+  margin: 0.2rem;
   display: flex;
   flex-direction: column;
   border: 1px solid #F79489;
   border-radius: 2rem;
   padding-bottom: 1rem;
   background-color: #fafafa;
+  height: 98%;
 }
 
 .aboutDescription {

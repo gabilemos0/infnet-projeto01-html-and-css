@@ -11,6 +11,7 @@
 
 .serviceItem {
   position: relative;
+  display: inline-block;
 }
 
 .serviceItemTitle {
@@ -35,17 +36,19 @@
   border-radius: 3rem;
   margin: 1rem;
   border: 2px solid #fafafa;
+  display: block;
 }
 
 .serviceItemImage:hover {
   border: 2px solid #F79489;
 }
 
-.myButtonLeft {
+
+/* .myButtonLeft {
   padding-right: 8rem!important;
 }
 
 .myButtonRight {
   margin-left: 8rem!important;
   padding-left: 8rem!important;
-}
+} */
