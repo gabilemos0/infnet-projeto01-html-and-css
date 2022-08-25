@@ -16,7 +16,7 @@
   <header>
     <!--Logo-->
     <div class="logo">
-      <a href="#home"><img a src="./assets/img/logo.png" alt="logo"
+      <a href="#home"><img src="./assets/img/logo.png" alt="logo"
           class="heading animate__animated animate__fadeIn animate__slower" /></a>
     </div>
     <!--Itens de Navengação-->
@@ -30,9 +30,9 @@
     </nav>
   </header>
   <main>
-    <div class="containerEmpty"></div>
+    <div id="home" class="containerEmpty"></div>
     <!--Seção de navegação "HOME" - (carousel bootstrap) -->
-    <section id="home">
+    <section>
       <div id="carouselBanner" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -60,7 +60,6 @@
     </section>
     <!--Seção de navegação "SOBRE"-->
     <section id="about">
-      </div>
       <div class="sectionContainer">
         <h2>Sobre</h2>
         <div class="container-fluid aboutDescription">
@@ -74,7 +73,7 @@
                   iste, quae tempore sed inventore. Atque sequi rem fugiat odit
                   ipsum temporibus...
                 </p>
-                <button class="knowMore"><a href="">Saiba mais</a></button>
+                <button class="knowMore">Saiba mais</button>
               </div>
             </div>
             <div class="col-md-4">
@@ -86,7 +85,7 @@
                   harmonizar nossa identidade à nossa imagem. A identidade são
                   nossos valores, quem somos e quem queremos nos tornar...
                 </p>
-                <button class="knowMore"><a href="">Saiba mais</a></button>
+                <button class="knowMore">Saiba mais</button>
               </div>
             </div>
             <div class="col-md-4">
@@ -99,7 +98,7 @@
                   consectetur
                   incidunt tempore repellat voluptatem natus...
                 </p>
-                <button class="knowMore"><a href="">Saiba mais</a></button>
+                <button class="knowMore">Saiba mais</button>
               </div>
             </div>
           </div>
@@ -275,12 +274,11 @@
           <!-- Modais do Catálogo de Serviços -->
           <div>
             <!-- Modal Visagismo -->
-            <div class="modal fade" id="visagismModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="visagismModal" data-bs-backdrop="static">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Visagismo</h5>
+                    <h5 class="modal-title">Visagismo</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -305,12 +303,11 @@
               </div>
             </div>
             <!-- Modal Estilo -->
-            <div class="modal fade" id="styleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="styleModal" data-bs-backdrop="static">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Estilo</h5>
+                    <h5 class="modal-title">Estilo</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -335,12 +332,11 @@
               </div>
             </div>
             <!-- Modal Etiqueta e Comportamento -->
-            <div class="modal fade" id="etiquetteModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="etiquetteModal" data-bs-backdrop="static">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Etiqueta e Comportamento</h5>
+                    <h5 class="modal-title">Etiqueta e Comportamento</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -365,12 +361,11 @@
               </div>
             </div>
             <!-- Coloração Pessoal -->
-            <div class="modal fade" id="colorModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="colorModal" data-bs-backdrop="static">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Coloração Pessoal</h5>
+                    <h5 class="modal-title">Coloração Pessoal</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -395,12 +390,11 @@
               </div>
             </div>
             <!-- Tipologia Física-->
-            <div class="modal fade" id="tipologyModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="tipologyModal" data-bs-backdrop="static">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Tipologia Física</h5>
+                    <h5 class="modal-title">Tipologia Física</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -425,12 +419,11 @@
               </div>
             </div>
             <!-- Revitalização de Guarda-Roupa -->
-            <div class="modal fade" id="closetModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="closetModal" data-bs-backdrop="static">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Revitalização de Guarda-Roupa</h5>
+                    <h5 class="modal-title">Revitalização de Guarda-Roupa</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -455,12 +448,11 @@
               </div>
             </div>
             <!-- Armário Cápsula -->
-            <div class="modal fade" id="cleanModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="cleanModal" data-bs-backdrop="static">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Armario Capsula</h5>
+                    <h5 class="modal-title">Armario Capsula</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -485,12 +477,11 @@
               </div>
             </div>
             <!-- Dress Code -->
-            <div class="modal fade" id="dressModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="dressModal" data-bs-backdrop="static">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Dress Code</h5>
+                    <h5 class="modal-title">Dress Code</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -515,12 +506,11 @@
               </div>
             </div>
             <!-- Tendências -->
-            <div class="modal fade" id="modaModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="modaModal" data-bs-backdrop="static">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Tendências</h5>
+                    <h5 class="modal-title">Tendências</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -545,12 +535,11 @@
               </div>
             </div>
             <!-- Lingerie -->
-            <div class="modal fade" id="lingerieModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="lingerieModal" data-bs-backdrop="static">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Lingerie</h5>
+                    <h5 class="modal-title">Lingerie</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -575,12 +564,11 @@
               </div>
             </div>
             <!-- Personal Shopping-->
-            <div class="modal fade" id="shoppingModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal fade" id="shoppingModal" data-bs-backdrop="static">
               <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="staticBackdropLabel">Personal Shopping</h5>
+                    <h5 class="modal-title">Personal Shopping</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
@@ -606,6 +594,7 @@
             </div>
           </div>
         </div>
+      </div>
     </section>
 
     <!--Seção de navegação "CONTATO"-->
@@ -619,24 +608,25 @@
         <form class="formContact">
           <div class="formFields">
             <label for="name">Nome:</label>
-            <input type="text" name="name" />
+            <input type="text" name="name" id="name" />
           </div>
           <div class="formFields">
             <label for="email">E-mail:</label>
-            <input type="email" name="email" />
+            <input type="email" name="email" id="email" />
           </div>
           <div class="formFields">
             <label for="topic">Assunto:</label>
-            <input type="text" name="topic" />
+            <input type="text" name="topic" id="topic" />
           </div>
           <div class="formFields">
             <label for="message">Mensagem:</label>
-            <textarea name="message" style="resize: none"></textarea>
+            <textarea name="message" style="resize: none" id="message"></textarea>
           </div>
           <div>
             <button class="submit" type="submit">Enviar</button>
           </div>
         </form>
+      </div>
       </div>
     </section>
   </main>
@@ -659,6 +649,7 @@
         <a href="https://www.instagram.com/maeeoutrostrem/?hl=pt-br" target="_blank"><i
             class="fa-brands fa-instagram"></i></a>
       </div>
+    </div>
   </footer>
 
   <!--Script JavaScript-->
