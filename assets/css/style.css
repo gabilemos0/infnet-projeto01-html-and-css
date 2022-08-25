@@ -18,6 +18,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.containerEmpty {
+  height: 6.2rem;
+}
+
 .sectionContainer {
   margin: 0 2rem;
 }

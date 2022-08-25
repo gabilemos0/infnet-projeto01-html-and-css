@@ -25,6 +25,10 @@
     margin-right: 0.3rem;
     font-size: 2rem;
   }
+
+  .formContact {
+    padding: 2rem;
+  }
 }
 
 
@@ -47,8 +51,8 @@
     padding: 0.5rem;
   }
 
-  #carouselBanner {
-    padding-top: 6.8rem;
+  .containerEmpty {
+    height: 6.9rem !important;
   }
 
   .sectionContainer h2 {
@@ -61,6 +65,10 @@
 
   .aboutColumn p {
     font-size: 0.8rem;
+  }
+
+  .formContact {
+    padding: 2rem;
   }
 
   .formFields label {
