@@ -6,6 +6,7 @@
 @import url('./contact.css');
 @import url('./footer.css');
 @import url('./modal.css');
+@import url('./responsive.css');
 
 * {
   margin: 0;
