@@ -5,13 +5,11 @@
   font-weight: 100;
 }
 
-.myContentModal {
-  display: flex;
-  align-items: center;
-}
-
 .imgModal {
+  width: 13rem;
+  height: 15rem;
   border: 2px solid #F79489!important;
+  border-radius: 2rem;
 }
 
 .myContentModal span {
@@ -19,3 +17,11 @@
   font-size: 0.9rem;
 }
 
+.serviceImageContainer {
+  text-align: center;
+
+}
+
+.serviceDescriptionContainer {
+  text-align: justify;
+}

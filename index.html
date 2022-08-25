@@ -14,10 +14,12 @@
 
 <body>
   <header>
+    <!--Logo-->
     <div class="logo">
       <a href="#home"><img a src="./assets/img/logo.png" alt="logo"
           class="heading animate__animated animate__fadeIn animate__slower" /></a>
     </div>
+    <!--Itens de Navengação-->
     <nav>
       <ul class="heading animate__animated animate__fadeIn animate__slower">
         <li><a href="#home">Home</a></li>
@@ -28,7 +30,8 @@
     </nav>
   </header>
   <main>
-    <div id="home">
+    <!--Seção de navegação "HOME" - (carousel bootstrap) -->
+    <section id="home">
       <div id="carouselBanner" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -53,7 +56,8 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
+    </section>
+    <!--Seção de navegação "SOBRE"-->
     <section id="about">
       <div class="sectionContainer">
         <h2>Sobre</h2>
@@ -91,86 +95,156 @@
 
       </div>
     </section>
+    <!--Seção de navegação "SERVIÇOS"-->
     <section id="services">
       <div class="sectionContainer">
         <h2>Serviços</h2>
+        <!--Catálogo de Serviços - (carousel bootstrap)-->
         <div id="pageServices" class="carousel slide carousel-dark" data-interval="false">
           <div class="carousel-inner">
+            <!--Página 1-->
             <div class="carousel-item active">
               <div class="columnOne">
-                <div>
-                  <a href="" data-bs-toggle="modal" data-bs-target="#visagismModal"><img class="containerImg"
-                      src="./assets/img/visagism.jpg" alt="visagismo" /><span class="textBlock1">Visagismo</span></a>
-                  <div class="modal fade" id="visagismModal" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="staticBackdropLabel">Visagismo</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="myContentModal"><img class="imgModal" src="./assets/img/visagism.jpg" alt="">
-                            <span>O visagismo é lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-                              incidunt
-                              reprehenderit
-                              sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit eum,
-                              voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <!--Visagismo-->
+                <div class="serviceItem">
+                  <a href="" data-bs-toggle="modal" data-bs-target="#visagismModal">
+                    <img src="./assets/img/visagism.jpg" alt="visagismo" class="serviceItemImage" />
+                    <span class="serviceItemTitle">Visagismo</span>
+                  </a>
                 </div>
-                <div>
-                  <a href="" data-bs-toggle="modal" data-bs-target="#styleModal"><img class="containerImg"
-                      src="./assets/img/style.jpg" alt="Estilo" /><span class="textBlock2">Estilo</span></a>
-                  <div class="modal fade" id="styleModal" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="staticBackdropLabel">Estilo</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="myContentModal"><img class="imgModal" src="./assets/img/style.jpg" alt="Estilo">
-                            <span>Estilo é lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-                              incidunt
-                              reprehenderit
-                              sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit eum,
-                              voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                <!--Estilo-->
+                <div class="serviceItem">
+                  <a href="" data-bs-toggle="modal" data-bs-target="#styleModal">
+                    <img src="./assets/img/style.jpg" alt="Estilo" class="serviceItemImage" />
+                    <span class="serviceItemTitle">Estilo</span>
+                  </a>
                 </div>
-                <div>
-                  <a href="" data-bs-toggle="modal" data-bs-target="#etiquetteModal"><img class="containerImg"
-                      src="./assets/img/etiquette.jpg" alt="Etiqueta e Comportamento" /><span
-                      class="textBlock3">Etiqueta
-                      e
-                      Comportamento</span></a>
-                  <div class="modal fade" id="etiquetteModal" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="staticBackdropLabel">Etiqueta e
-                            Comportamento</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <!--Etiqueta e Comportamento-->
+                <div class="serviceItem">
+                  <a href="" data-bs-toggle="modal" data-bs-target="#etiquetteModal">
+                    <img src="./assets/img/etiquette.jpg" alt="Etiqueta e Comportamento" class="serviceItemImage" />
+                    <span class="serviceItemTitle">Etiqueta e Comportamento</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!--Página 2-->
+            <div class="carousel-item">
+              <div class="columnOne">
+                <!--Coloração Pessoal-->
+                <div class="serviceItem">
+                  <a href="" data-bs-toggle="modal" data-bs-target="#colorModal">
+                    <img src="./assets/img/color.jpg" alt="Coloração Pessoal" class="serviceItemImage" />
+                    <span class="serviceItemTitle">Coloração Pessoal</span>
+                  </a>
+                </div>
+                <!--Tipologia Física-->
+                <div class="serviceItem">
+                  <a href="" data-bs-toggle="modal" data-bs-target="#tipologyModal">
+                    <img src="./assets/img/tipology.jpg" alt="Tipologia Física" class="serviceItemImage" />
+                    <span class="serviceItemTitle">Tipologia Física</span>
+                  </a>
+                </div>
+                <!--Revitalização de Guarda-Roupa-->
+                <div class="serviceItem">
+                  <a href="" data-bs-toggle="modal" data-bs-target="#closetModal">
+                    <img src="./assets/img/closet.jpg" alt="Revitalização de Guarda-Roupa" class="serviceItemImage" />
+                    <span class="serviceItemTitle">Revitalização de Guarda-Roupa</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!--Página 3-->
+            <div class="carousel-item">
+              <div class="columnOne">
+                <!--Armário Cápsula-->
+                <div class="serviceItem">
+                  <a href="" data-bs-toggle="modal" data-bs-target="#cleanModal">
+                    <img src="./assets/img/clean-closet.jpg" alt="Armário Cápsula" class="serviceItemImage" />
+                    <span class="serviceItemTitle">Armário Cápsula</span>
+                  </a>
+                </div>
+                <!--Dress Code-->
+                <div class="serviceItem">
+                  <a href="" data-bs-toggle="modal" data-bs-target="#dressModal">
+                    <img src="./assets/img/dress-code.jpg" alt="Dress Code" class="serviceItemImage" />
+                    <span class="serviceItemTitle">Dress Code</span>
+                  </a>
+                </div>
+                <!--Tendências-->
+                <div class="serviceItem">
+                  <a href="" data-bs-toggle="modal" data-bs-target="#modaModal">
+                    <img src="./assets/img/moda.jpg" alt="Tendências" class="serviceItemImage" />
+                    <span class="serviceItemTitle">Tendências</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!--Página 4-->
+            <div class="carousel-item">
+              <div class="columnOne">
+                <!--Lingerie-->
+                <div class="serviceItem">
+                  <a href="" data-bs-toggle="modal" data-bs-target="#lingerieModal">
+                    <img src="./assets/img/lingerie.jpg" alt="Lingerie" class="serviceItemImage" />
+                    <span class="serviceItemTitle">Lingerie</span>
+                  </a>
+                </div>
+                <!--Personal Shopping-->
+                <div class="serviceItem">
+                  <a href="" data-bs-toggle="modal" data-bs-target="#shoppingModal">
+                    <img src="./assets/img/shopping.jpg" alt="Personal Shopping" class="serviceItemImage" />
+                    <span class="serviceItemTitle">Personal Shopping</span>
+                  </a>
+                </div>
+                <!--Entre em Contato-->
+                <div class="serviceItem">
+                  <a href="#contact">
+                    <img src="./assets/img/phone.jpg" alt="Entre em Contato" class="serviceItemImage" />
+                    <span class="serviceItemTitle">Entre em Contato</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Botões Prev and Next do Catálogo de Serviços -->
+            <button class="carousel-control-prev myButtonLeft" type="button" data-bs-target="#pageServices"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next myButtonRight" type="button" data-bs-target="#pageServices"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!-- Modais do Catálogo de Serviços -->
+          <div>
+            <!-- Modal Visagismo -->
+            <div class="modal fade" id="visagismModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Visagismo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/visagism.jpg" alt="Visagismo">
                         </div>
-                        <div class="modal-body">
-                          <div class="myContentModal"><img class="imgModal" src="./assets/img/etiquette.jpg" alt="Etiqueta e
-                            Comportamento">
-                            <span>Etiqueta e Comportamento é lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                              Dolore
-                              incidunt
-                              reprehenderit
-                              sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit eum,
-                              voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
-                          </div>
+                        <div class="col-md-6">
+                          <span>O visagismo é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
                         </div>
                       </div>
                     </div>
@@ -178,85 +252,29 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="columnOne">
-                <div>
-                  <a href="" data-bs-toggle="modal" data-bs-target="#colorModal"><img class="containerImg"
-                      src="./assets/img/color.jpg" alt="Coloração Pessoal" /><span class="textBlock1">Coloração
-                      Pessoal</span></a>
-                  <div class="modal fade" id="colorModal" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="staticBackdropLabel">Coloração
-                            Pessoal</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="myContentModal"><img class="imgModal" src="./assets/img/color.jpg" alt="Coloração
-                            Pessoal">
-                            <span>Coloração Pessoal é lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-                              incidunt
-                              reprehenderit
-                              sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit eum,
-                              voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+            <!-- Modal Estilo -->
+            <div class="modal fade" id="styleModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Estilo</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                </div>
-                <div>
-                  <a href="" data-bs-toggle="modal" data-bs-target="#tipologyModal"><img class="containerImg"
-                      src="./assets/img/tipology.jpg" alt="Tipologia Física" /><span class="textBlock2">Tipologia
-                      Física</span></a>
-                  <div class="modal fade" id="tipologyModal" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="staticBackdropLabel">Tipologia
-                            Física</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/style.jpg" alt="Estilo">
                         </div>
-                        <div class="modal-body">
-                          <div class="myContentModal"><img class="imgModal" src="./assets/img/tipology.jpg" alt="Tipologia
-                              Física">
-                            <span>Tipologia Física é lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-                              incidunt
-                              reprehenderit
-                              sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit eum,
-                              voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <a href="" data-bs-toggle="modal" data-bs-target="#closetModal"><img class="containerImg"
-                      src="./assets/img/closet.jpg" alt="Revitalização de Guarda-Roupa" /><span
-                      class="textBlock3">Revitalização de
-                      Guarda-Roupa</span></a>
-                  <div class="modal fade" id="closetModal" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="staticBackdropLabel">Revitalização de Guarda-Roupa</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="myContentModal"><img class="imgModal" src="./assets/img/closet.jpg"
-                              alt="Revitalização de Guarda-Roupa">
-                            <span>Revitalização de Guarda-Roupa é lorem ipsum dolor sit amet, consectetur adipisicing
-                              elit. Dolore
-                              incidunt
-                              reprehenderit
-                              sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit eum,
-                              voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
-                          </div>
+                        <div class="col-md-6">
+                          <span>O Estilo é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
                         </div>
                       </div>
                     </div>
@@ -264,82 +282,29 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="columnOne">
-                <div>
-                  <a href="" data-bs-toggle="modal" data-bs-target="#cleanModal"><img class="containerImg"
-                      src="./assets/img/clean-closet.jpg" alt="Armário Cápsula" /><span class="textBlock1">Armário
-                      Cápsula</span></a>
-                  <div class="modal fade" id="cleanModal" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="staticBackdropLabel">Armário
-                            Cápsula</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="myContentModal"><img class="imgModal" src="./assets/img/clean-closet.jpg" alt="Armário
-                            Cápsula">
-                            <span>Armário
-                              Cápsula é lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-                              incidunt
-                              reprehenderit
-                              sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit eum,
-                              voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+            <!-- Modal Etiqueta e Comportamento -->
+            <div class="modal fade" id="etiquetteModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Etiqueta e Comportamento</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
-                </div>
-                <div>
-                  <a href="" data-bs-toggle="modal" data-bs-target="#dressModal"><img class="containerImg"
-                      src="./assets/img/dress-code.jpg" alt="Dress Code" /><span class="textBlock2">Dress
-                      Code</span></a>
-                  <div class="modal fade" id="dressModal" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="staticBackdropLabel">Dress Code</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/etiquette.jpg" alt="Etiqueta e Comportamento">
                         </div>
-                        <div class="modal-body">
-                          <div class="myContentModal"><img class="imgModal" src="./assets/img/dress-code.jpg"
-                              alt="Dress Code">
-                            <span>Dress Code é lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-                              incidunt
-                              reprehenderit
-                              sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit eum,
-                              voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <a href="" data-bs-toggle="modal" data-bs-target="#modaModal"><img class="containerImg"
-                      src="./assets/img/moda.jpg" alt="Tendências" /><span class="textBlock3">Tendências</span></a>
-                  <div class="modal fade" id="modaModal" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="staticBackdropLabel">Tendências</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                          <div class="myContentModal"><img class="imgModal" src="./assets/img/moda.jpg"
-                              alt="Tendências">
-                            <span>Tendências é lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-                              incidunt
-                              reprehenderit
-                              sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit eum,
-                              voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
-                          </div>
+                        <div class="col-md-6">
+                          <span>Etiqueta e Comportamento é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
                         </div>
                       </div>
                     </div>
@@ -347,81 +312,239 @@
                 </div>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="columnOne">
-                <div>
-                  <a href="" data-bs-toggle="modal" data-bs-target="#lingerieModal"><img class="containerImg"
-                      src="./assets/img/lingerie.jpg" alt="Lingerie" /><span class="textBlock1">Lingerie</span></a>
-                  <div class="modal fade" id="lingerieModal" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="staticBackdropLabel">Lingerie</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <!-- Coloração Pessoal -->
+            <div class="modal fade" id="colorModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Coloração Pessoal</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/color.jpg" alt="Coloração Pessoal">
                         </div>
-                        <div class="modal-body">
-                          <div class="myContentModal"><img class="imgModal" src="./assets/img/lingerie.jpg"
-                              alt="Lingerie">
-                            <span>Lingerie é lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-                              incidunt
-                              reprehenderit
-                              sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit eum,
-                              voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
-                          </div>
+                        <div class="col-md-6">
+                          <span>Coloração Pessoal é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div>
-                  <a href="" data-bs-toggle="modal" data-bs-target="#shopingModal"><img class="containerImg"
-                      src="./assets/img/shopping.jpg" alt="Personal Shopping" /><span class="textBlock2">Personal
-                      Shopping</span></a>
-                  <div class="modal fade" id="shopingModal" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="staticBackdropLabel">Personal
-                            Shopping</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+            </div>
+            <!-- Tipologia Física-->
+            <div class="modal fade" id="tipologyModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Tipologia Física</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/tipology.jpg" alt="Tipologia Física">
                         </div>
-                        <div class="modal-body">
-                          <div class="myContentModal"><img class="imgModal" src="./assets/img/shopping.jpg" alt="Personal
-                            Shopping">
-                            <span>Personal
-                              Shopping é lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-                              incidunt
-                              reprehenderit
-                              sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit eum,
-                              voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
-                          </div>
+                        <div class="col-md-6">
+                          <span>Tipologia Física é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div>
-                  <a href="#contact"><img class="containerImg" src="./assets/img/phone.jpg"
-                      alt="Entre em Contato" /><span class="textBlock3">Entre em
-                      Contato</span></a>
-                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="staticBackdropLabel">Visagismo</h5>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+            </div>
+            <!-- Revitalização de Guarda-Roupa -->
+            <div class="modal fade" id="closetModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Revitalização de Guarda-Roupa</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/closet.jpg" alt="Revitalização de Guarda-Roupa">
                         </div>
-                        <div class="modal-body">
-                          <div class="myContentModal"><img class="imgModal" src="./assets/img/visagism.jpg" alt="">
-                            <span>O visagismo é lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore
-                              incidunt
-                              reprehenderit
-                              sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit eum,
-                              voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
-                          </div>
+                        <div class="col-md-6">
+                          <span>Revitalização de Guarda-Roupa é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Armário Cápsula -->
+            <div class="modal fade" id="cleanModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Armário Cápsula</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/clean-closet.jpg" alt="Armário Cápsula">
+                        </div>
+                        <div class="col-md-6">
+                          <span>Armário Cápsula é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Dress Code -->
+            <div class="modal fade" id="dressModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Dress Code</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/dress-code.jpg" alt="Dress Code">
+                        </div>
+                        <div class="col-md-6">
+                          <span>Dress Code é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Tendências -->
+            <div class="modal fade" id="modaModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Tendências</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/moda.jpg" alt="Tendências">
+                        </div>
+                        <div class="col-md-6">
+                          <span>Tendências é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Lingerie -->
+            <div class="modal fade" id="lingerieModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Lingerie</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/lingerie.jpg" alt="Lingerie">
+                        </div>
+                        <div class="col-md-6">
+                          <span>Lingerie é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Personal Shopping-->
+            <div class="modal fade" id="shoppingModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+              aria-labelledby="staticBackdropLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Personal Shopping</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="myContentModal container-fluid">
+                      <div class="row">
+                        <div class="col-md-6 serviceImageContainer">
+                          <img class="imgModal" src="./assets/img/shopping.jpg" alt="Personal Shopping">
+                        </div>
+                        <div class="col-md-6">
+                          <span>Personal Shopping é lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Dolore
+                            incidunt
+                            reprehenderit
+                            sapiente iusto! Voluptatem, facere quisquam? Aut, libero eos ratione aliquid impedit
+                            eum,
+                            voluptatum cum explicabo optio asperiores temporibus aperiam.</span>
                         </div>
                       </div>
                     </div>
@@ -430,23 +553,9 @@
               </div>
             </div>
           </div>
-
-          <button class="carousel-control-prev myButtonLeft" type="button" data-bs-target="#pageServices"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-
-
-          <button class="carousel-control-next myButtonRight" type="button" data-bs-target="#pageServices"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
     </section>
 
-
+    <!--Seção de navegação "CONTATO"-->
     <section id="contact">
       <div class="sectionContainer">
         <h2>Contato</h2>
@@ -477,9 +586,10 @@
         </form>
       </div>
     </section>
-    </div>
   </main>
+
   <footer>
+    <!--Breve descrição footer-->
     <div class="messageFooter">
       <span class="titleFooter titleFooterName">Jéssica Carvalho</span>
       <p class="slogan">
@@ -487,6 +597,7 @@
         Maternidade leve e sem frescura.
       </p>
     </div>
+    <!--Ícones de contato do footer-->
     <div class="socialFooter">
       <div>
         <a href="mailto:jeehcarvalho.25@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
@@ -496,6 +607,8 @@
             class="fa-brands fa-instagram"></i></a>
       </div>
   </footer>
+
+  <!--Script JavaScript-->
   <script src="./assets/libs/bootstrap/bootstrap.bundle.min.js"></script>
 </body>
 
