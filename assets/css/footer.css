@@ -17,7 +17,20 @@ footer {
   color: #333;
   text-align: right;
   margin-right: 3rem;
+  animation-name: animation-footer;
+  animation-duration: 10s;
 }
+
+@keyframes animation-footer {
+  from {
+    color: #F79489;
+  }
+
+  to {
+    color: #333;
+  }
+}
+
 
 .titleFooterName::after {
   content: '';
@@ -70,11 +83,13 @@ footer {
   0% {
     transform: scale(.85);
   }
+
   70% {
     transform: scale(1);
     box-shadow: 0 0 0 100px rgba(#F79489, 0);
   }
-    100% {
+
+  100% {
     transform: scale(1);
     box-shadow: 0 0 0 0 rgba(#F79489, 0);
   }
